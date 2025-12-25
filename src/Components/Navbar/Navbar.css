@@ -1,0 +1,103 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 63px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px; /* corner alignment */
+    background-color: #000;
+}
+
+/* LOGO */
+.navbar-logo {
+    width: 125px;
+}
+
+/* MENU (DESKTOP) */
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nav-menu li img {
+    width: 20px;
+    margin: auto;
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: white;
+}
+
+/* MOBILE ICONS HIDDEN BY DEFAULT */
+.nav-mob-open,
+.nav-mob-close {
+    display: none;
+}
+
+/* ===== MOBILE VIEW ===== */
+@media (max-width: 768px) {
+
+    /* HAMBURGER */
+    .nav-mob-open {
+        display: block;
+        width: 20px;
+        cursor: pointer;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    /* SLIDE MENU */
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 210px;
+        height: 100vh;
+        background-color: #1F0016;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 60px;
+        gap: 30px;
+        transition: right 0.4s ease;
+        z-index: 10000;
+    }
+
+    .nav-menu li {
+        font-size: 15px;
+        padding-left: 30px;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    /* CLOSE ICON */
+    .nav-mob-close {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 20px;
+        cursor: pointer;
+    }
+}
