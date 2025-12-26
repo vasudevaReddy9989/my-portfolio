@@ -57,41 +57,51 @@ img{
 .footer-bottom p{
     font-size: 12px;
 }
-@media(max-width:768px)
-{
-    .footer{
-        padding: 0px;
-        margin:20px 22px;
+@media (max-width: 768px) {
+
+    .footer {
+        padding: 10px 0px;
+        margin: 20px 22px;
         font-size: 11px;
     }
-    .footer-top{
-        flex-direction: column;
-        gap:16px;
-    }
-    .footer-top-left{
 
-        display: flex;
+    .footer-top {
+        flex-direction: column;
+        gap: 20px;
         align-items: center;
     }
-     .footer-top-middle{
-        display: flex;
+
+    .footer-top-left {
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Mail + Phone in same row */
+    .footer-top-middle {
         flex-direction: row;
-        justify-content: space-between;
+        gap: 30px;
+        justify-content: center;
         align-items: center;
     }
-    .footer-top-right{
-        display: flex;
+
+    /* LinkedIn + GitHub in same row */
+    .footer-top-right {
         flex-direction: row;
-        justify-content: space-between;
+        gap: 30px;
+        justify-content: center;
         align-items: center;
-        gap:70px;
-       
     }
-    .footer-top-right h5{
-        width:104px;
+
+    .footer-top-middle-email,
+    .footer-top-middle-phone,
+    .footer-top-right-linkedin,
+    .footer-top-right-github {
+        align-items: center;
+        gap: 8px;
     }
-    .footer-bottom p{
-    font-size: 8px;
+
+    .footer-bottom p {
+        font-size: 8px;
         text-align: center;
     }
 }
