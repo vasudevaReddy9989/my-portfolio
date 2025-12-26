@@ -1,5 +1,5 @@
 import './Services.css'
-import { Services_Data } from '../../assets/Services_data'
+import { Services_Data } from '../../assets/Services_Data.js'
 import arrow_icon from '../../assets/arrow_icon.svg'
 import underline from '../../assets/nav_underline.svg'
 import { useState } from 'react'
