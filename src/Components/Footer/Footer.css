@@ -64,7 +64,9 @@ img{
         margin: 20px 22px;
         font-size: 10px;
     }
-
+    .footer-top-left-name{
+        font-size: 8px;
+    }
     .footer-top {
         flex-direction: column;
         gap: 10px;
@@ -110,7 +112,7 @@ img{
     }
 
     .footer-bottom p {
-        font-size: 8px;
+        font-size: 7px;
         text-align: center;
     }
 }
