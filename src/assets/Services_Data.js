@@ -19,12 +19,12 @@ export const Services_Data = [
   {
     s_no: "02",
     s_name: "SmartBunk",
-    s_desc: "Equipment and spares management for LPG stations.",
+    s_desc: "Equipment and spares management for Oil stations.",
     details: {
       client: "IOCL",
       domain: "Supply Chain & Asset Management",
       description:
-        "This system manages equipment and spares distribution to LPG stations with vendor coordination based on region, sales office, state office, and sales group.",
+        "This system manages equipment and spares distribution to Oil stations with vendor coordination based on region, sales office, state office, and sales group.",
       features: [
         "Vendor management",
         "Region & sales-based allocation",

@@ -62,20 +62,29 @@ img{
     .footer {
         padding: 10px 0px;
         margin: 20px 22px;
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .footer-top {
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
         align-items: center;
+        padding: 10px;
     }
 
     .footer-top-left {
+        display: flex;
+        flex-direction: row;
         align-items: center;
         text-align: center;
     }
-
+    .footer-top-left-location
+    {
+        gap: 10px;
+    }
+    .footer-top-left-location h5{
+        margin-top: 6px;
+    }
     /* Mail + Phone in same row */
     .footer-top-middle {
         flex-direction: row;

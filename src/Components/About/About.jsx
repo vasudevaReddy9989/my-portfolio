@@ -17,7 +17,7 @@ export const About=()=>{
                  <div className="about-right">
                     <div className="about-para">
                         <p>I am an experienced Full stack developer with over a year of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with Prestigious organizations,contributing to their success and growth.</p>
-                        <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project</p>
+                        <p>My passion for full stack development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project</p>
                     </div> 
                     <div className="about-skills">
                         <div className="about-skill"><p>HTML & CSS</p><hr className="html-css"/></div>
